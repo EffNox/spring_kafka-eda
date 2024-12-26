@@ -1,0 +1,24 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-PubApplication<pub>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "nr.pub.PubApplication",
+            "projectName": "pub",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-SubApplication<sub>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "nr.sub.SubApplication",
+            "projectName": "sub",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
